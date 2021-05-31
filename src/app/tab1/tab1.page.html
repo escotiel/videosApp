@@ -1,41 +1,73 @@
 <ion-header [translucent]="true">
   <ion-toolbar color="dark">
-    <ion-title>
-      VideosApp
-    </ion-title>
+    <ion-title> VideosApp </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true" color="light">
+  <!-- List of Text Items -->
+  <ion-list>
+    <ion-item-sliding>
+      <ion-item line="full">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/woPYFGKwVULILbO7q44HmsNY0kO.jpg"
+          />
+        </ion-thumbnail>
 
+        <ion-label>
+          <div>
+            <h1>Anônimo (2021)</h1>
+            <p>12/05/2021 (BR) - 1h32min</p>
+            <p>Ação, Thriller, Crime, Comédia</p>
+          </div>
+        </ion-label>
 
-<!-- List of Text Items -->
-<ion-list>
-  <ion-item line="full">
-    <ion-thumbnail slot="end">
-      <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/woPYFGKwVULILbO7q44HmsNY0kO.jpg">
-    </ion-thumbnail>
-    <ion-label >
-      <div>
-        <h1>Anônimo (2021)</h1>
-        <p>12/05/2021 (BR) - 1h32min</p>
-        <p>Ação, Thriller, Crime, Comédia
-        </p>
-      </div>
-    </ion-label>
+        <ion-chip color="success" outline>
+          <ion-label>85%</ion-label>
+        </ion-chip>
+      </ion-item>
 
-    <ion-chip color="success" outline>
-      <ion-label>85%</ion-label>
-    </ion-chip>
-  </ion-item>
-</ion-list>
+      <ion-item-options side="end">
+        <ion-item-option>
+          <ion-icon slot="icon-only" name="star"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
 
-<!-- List of Text Items<p align="center"><img src="https://avatars.githubusercontent.com/u/67601062?v=4"></p>
+    <ion-item-sliding>
+      <ion-item line="full">
+        <ion-thumbnail slot="start">
+          <img
+            src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dAtAp4IeT6EYGhewfnNNhalobme.jpg"
+          />
+        </ion-thumbnail>
+
+        <ion-label>
+          <div>
+            <h1>Infiltrado (2021)</h1>
+            <p>27/05/2021 (BR) - 1h59min</p>
+            <p>Ação, Crime</p>
+          </div>
+        </ion-label>
+
+        <ion-chip color="success" outline>
+          <ion-label>79%</ion-label>
+        </ion-chip>
+      </ion-item>
+
+      <ion-item-options side="end">
+        <ion-item-option>
+          <ion-icon slot="icon-only" name="star"></ion-icon>
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
+  <!-- List of Text Items<p align="center"><img src="https://avatars.githubusercontent.com/u/67601062?v=4"></p>
 <h1>Robson Escotiel S. Rocha</h1>
 <p>Prof. Me ETEC de Cubatão</p>
 <a href="mailto:robson.rocha4@etec.sp.gov.br" >robson.rocha4@etec.sp.gov.br</a> -->
-
-
 
   <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>
