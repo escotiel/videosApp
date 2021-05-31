@@ -34,6 +34,16 @@ export class Tab1Page {
         'Ação', 'Crime'
       ]
     },
+    {
+      nome: 'Um Lugar Silencioso - Parte II (2021)',
+      lancamento: '10/06/2021 (BR)',
+      duracao: '1h37min',
+      classificacao: 74,
+      cartaz: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/wYqmuxd9jNFLf3gtQY5vbAUgiGk.jpg',
+      generos: [
+        'Ação', 'Crime'
+      ]
+    }
   ];
 
   constructor(public alertController: AlertController, public toastController: ToastController) {}
