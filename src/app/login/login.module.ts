@@ -4,17 +4,17 @@ import { FormsModule } from '@angular/forms';
 
 import { IonicModule } from '@ionic/angular';
 
-import { ZonaDeCombatePageRoutingModule } from './zona-de-combate-routing.module';
+import { LoginPageRoutingModule } from './login-routing.module';
 
-import { ZonaDeCombatePage } from './zona-de-combate.page';
+import { LoginPage } from './login.page';
 
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
-    ZonaDeCombatePageRoutingModule
+    LoginPageRoutingModule
   ],
-  declarations: [ZonaDeCombatePage]
+  declarations: [LoginPage]
 })
-export class ZonaDeCombatePageModule {}
+export class LoginPageModule {}
