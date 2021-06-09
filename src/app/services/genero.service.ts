@@ -27,7 +27,7 @@ export class GeneroService {
 
   async exibirEerro(erro) {
     const toast = await this.toastController.create({
-      message: 'Erro ao consultar a API',
+      message: 'Erro ao consultar a API de Generos de Filmes',
       duration: 2000,
       color: 'danger',
       position: 'middle'
